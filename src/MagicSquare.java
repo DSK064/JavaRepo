@@ -6,13 +6,13 @@ public class MagicSquare {
         System.out.println("Enter the size of square:");
         int size = sc.nextInt();
         int[][] square = new int[size][size];
-        System.out.println("Enter the elemets:");
+        System.out.println("Enter the elements:");
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++)
                 square[i][j] = sc.nextInt();
         }
         if(isMagicSquare(size, square))
-            System.out.println("Yes");
+            System.out.println("Yes, It's a magic square");
         else
             System.out.println("No");
     }
