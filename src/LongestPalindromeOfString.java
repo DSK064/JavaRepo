@@ -13,7 +13,7 @@ public class LongestPalindromeOfString {
             high = i + 1;
             while ((low >= 0) && (high < str.length()) && (str.charAt(low)) == str.charAt(high)) {
                 if ((high - low) > last) {
-                    first = low;
+                    first = low;                    //  abcddcv
                     last = high - low;
                 }
                 low--;
@@ -24,7 +24,7 @@ public class LongestPalindromeOfString {
             high = i + 2;
             while ((low >= 0) && (high < str.length()) && (str.charAt(low)) == str.charAt(high)) {
                 if ((high - low) > last) {
-                    first = low;
+                    first = low;            // abcdcb
                     last = high - low;
                 }
                 low--;
