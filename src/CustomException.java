@@ -13,7 +13,10 @@ public class CustomException {
             System.out.println("Exception occurred!!");
             System.out.println(e);
         }
-        System.out.println("Thank you..");
+        finally {
+            System.out.println("Thank you..");
+        }
+
 
     }
 
