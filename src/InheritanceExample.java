@@ -1,3 +1,12 @@
+interface FirstInterface {
+    int i = 1;
+    void printer();
+}
+interface SecondInterface {
+    int j = 2;
+
+    void display();
+}
 public class InheritanceExample extends Second implements FirstInterface,SecondInterface {
     public static void main(String[] args) {
         InheritanceExample i1 = new InheritanceExample();
