@@ -104,7 +104,7 @@ public class VersionManager {
                     catch (RollBackException e)
                     {
                         System.out.println("Exception occurred!!");
-                        System.out.println(e);
+                        System.out.println(e.getMessage());
                     }
                     break;
                 case 5:

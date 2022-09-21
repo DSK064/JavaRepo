@@ -11,12 +11,12 @@ public class CustomException {
         catch (InvalidAgeException e)
         {
             System.out.println("Exception occurred!!");
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
 
         finally {
             System.out.println("Thank you..");
-        };
+        }
 
     }
 
