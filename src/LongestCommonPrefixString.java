@@ -38,7 +38,7 @@ public class LongestCommonPrefixString {
         }
         LongestCommonPrefixString l = new LongestCommonPrefixString();
         String result = l.checkLongestPrefix(arr);
-        if(result.length() != 0) {
+        if(result.length() > 0) {
             System.out.println("Longest common prefix is : " + result);
         }
         else

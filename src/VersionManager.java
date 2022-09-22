@@ -5,7 +5,7 @@ class RollBackException extends Throwable {
         super(str);
     }
 }
-class Manager extends Throwable{
+class Manager{
     public int major;
     public int minor;
     public int patch;
@@ -71,7 +71,7 @@ public class VersionManager {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the initial version:");
         String iv = sc.nextLine();
-        String[] input = iv.split(".");
+        String[] input = iv.split("\\."); // 0.0.1
         int major, minor, patch;
         major = Integer.parseInt(input[0]);
         minor = Integer.parseInt(input[1]);

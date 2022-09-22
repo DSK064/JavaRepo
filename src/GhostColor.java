@@ -2,7 +2,7 @@ import java.util.Random;
 
 class Ghost{
     String[] colors = {"white", "yellow","purple","red"};
-    public String getColor()
+    public  String getColor()
     {
         Random random = new Random();
         int index = random.nextInt(colors.length);

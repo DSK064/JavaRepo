@@ -5,7 +5,7 @@ interface MysteryColour {
      int noOfDistinctColors(List<Color> mysteryColours);
      int colorOccurrence(List<Color> mysteryColors, Color color);
     }
-enum Color{
+enum Color {
     RED, GREEN, BLUE
 }
 public class MysteryColorAnalyzer implements MysteryColour{
@@ -35,7 +35,6 @@ public class MysteryColorAnalyzer implements MysteryColour{
        MysteryColorAnalyzer analyzer = new MysteryColorAnalyzer();
         System.out.println("Number of Distinct colors are : "+analyzer.noOfDistinctColors(list));
         System.out.println("The color occurred "+analyzer.colorOccurrence(list, Color.GREEN)+" times");
-
 
     }
 }
