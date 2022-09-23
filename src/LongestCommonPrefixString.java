@@ -14,9 +14,9 @@ public class LongestCommonPrefixString {
         }
         for (int i = 0; i < minLength; i++)
         {
-            current = arr[0].charAt(i);
-            for (String item : arr)
-            {
+            current = arr[0].charAt(i);                   // f l o w e r
+            for (String item : arr)                       // f l o w
+            {                                             // f l i g h t
                 if(item.charAt(i) != current)
                 {
                     return result;

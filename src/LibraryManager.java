@@ -20,7 +20,7 @@ class GenericLibrary <T>
 {
     T book, video, newsPaper;
 
-    public GenericLibrary(T book, T video, T newsPaper) {
+    public GenericLibrary(T video, T book, T newsPaper) {
         this.book = book;
         this.video = video;
         this.newsPaper = newsPaper;
